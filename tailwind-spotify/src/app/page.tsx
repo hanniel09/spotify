@@ -106,26 +106,44 @@ export default function Home() {
         <h2 className="font-semibold text-3xl mt-10">Made for Hanniel Vieira</h2>
 
         <div className="grid grid-cols-8 gap-4 mt-4">
-          <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10">
+          <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
             <Image src="/album.jpg" className="w-full" width={120} height={120} alt='Capa do album Músicas Curtidas'/>
+            <strong className='font-semibold'>Daily mix 1</strong>
+            <span className="text-sm text-zinc-400">Slipknot, Skillet, Guns N Roses</span>
           </a>
-          <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10">
+          <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
             <Image src="/album.jpg" className="w-full" width={120} height={120} alt='Capa do album Músicas Curtidas'/>
+            <strong className='font-semibold'>Daily mix 1</strong>
+            <span className="text-sm text-zinc-400">Slipknot, Skillet, Guns N Roses</span>
           </a>
-          <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10">
+          <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
             <Image src="/album.jpg" className="w-full" width={120} height={120} alt='Capa do album Músicas Curtidas'/>
+            <strong className='font-semibold'>Daily mix 1</strong>
+            <span className="text-sm text-zinc-400">Slipknot, Skillet, Guns N Roses</span>
           </a>
-          <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10">
+          <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
             <Image src="/album.jpg" className="w-full" width={120} height={120} alt='Capa do album Músicas Curtidas'/>
+            <strong className='font-semibold'>Daily mix 1</strong>
+            <span className="text-sm text-zinc-400">Slipknot, Skillet, Guns N Roses</span>
           </a>
-          <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10">
+          <a href="#" className="bg-white/5 p-3 flex flex-col gap-2 rounded-md hover:bg-white/10">
             <Image src="/album.jpg" className="w-full" width={120} height={120} alt='Capa do album Músicas Curtidas'/>
+            <strong className='font-semibold'>Daily mix 1</strong>
+            <span className="text-sm text-zinc-400">Slipknot, Skillet, Guns N Roses</span>
           </a>
         </div>
       </main>
     </div>
-    <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
-      footer
+    <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
+      <div className="flex items-center gap-3">
+        <Image src="/album.jpg" width={56} height={56} alt='Capa do album Músicas Curtidas'/>
+        <div className="flex flex-col">
+          <strong className="text-normal">My Demons</strong>
+          <span className="text-xs text-zinc-400">Starset</span>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
     </footer>
   </div>
   )
